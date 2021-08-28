@@ -1,0 +1,14 @@
+
+.footer {
+  color: rgb(255,255,255);
+  background-color: #161616;
+  &__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 5%;
+    p {
+      font-size: 12px;
+    }
+  }
+}
