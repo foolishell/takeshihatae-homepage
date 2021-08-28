@@ -1,0 +1,46 @@
+
+.information {
+  min-height: 100vh;
+  background-color: #161616;
+  &__container {
+    padding: 20px 5%;
+  }  
+  &__year {
+    float:right;
+    background-color: #161616;
+  }
+  &__content {
+    margin-top: 80px;
+    &--comp {
+      color: white;
+      border-radius: 5px;
+      padding: 15px;
+    }
+  }
+}
+
+.information__data {
+  background-color: #161616;
+  border-radius: 5px;
+  padding: 15px;
+  transition: .3s;
+  box-shadow: 1px 1px 2px 2px gray;
+  @media (min-width: 960px) {
+    &:hover {
+      background-color: gray;
+      color: black;
+    }
+  }
+  &--date, &--place {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  &--title {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  &--detail, &--member, &--charge {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+}

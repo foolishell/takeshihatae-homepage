@@ -1,0 +1,21 @@
+
+.work {
+  min-height: 100vh;
+  color: white;
+  background-color: #161616;
+  &__container {
+    padding: 50px 5%;
+  }
+  &__content {
+    margin-top: 30px;
+  }
+  &__img {
+    margin-top: 30px;
+    img {
+      width: 100%;
+      @media (min-width: 960px) {
+        width: 50%;
+      }
+    }
+  }
+}

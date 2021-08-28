@@ -1,0 +1,6 @@
+export * from "./Home"
+export * from "./Gear"
+export * from "./Contact"
+export * from "./Information"
+export * from "./Profile"
+export * from "./Work"
