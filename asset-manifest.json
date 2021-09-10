@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/takeshihatae-homepage/static/css/main.f5399d0c.chunk.css",
-    "main.js": "/takeshihatae-homepage/static/js/main.dcdc7687.chunk.js",
-    "main.js.map": "/takeshihatae-homepage/static/js/main.dcdc7687.chunk.js.map",
+    "main.css": "/takeshihatae-homepage/static/css/main.829d0651.chunk.css",
+    "main.js": "/takeshihatae-homepage/static/js/main.b80b6ffd.chunk.js",
+    "main.js.map": "/takeshihatae-homepage/static/js/main.b80b6ffd.chunk.js.map",
     "runtime-main.js": "/takeshihatae-homepage/static/js/runtime-main.8ecdc3e9.js",
     "runtime-main.js.map": "/takeshihatae-homepage/static/js/runtime-main.8ecdc3e9.js.map",
     "static/js/2.507cb561.chunk.js": "/takeshihatae-homepage/static/js/2.507cb561.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f7326e62.chunk.js": "/takeshihatae-homepage/static/js/3.f7326e62.chunk.js",
     "static/js/3.f7326e62.chunk.js.map": "/takeshihatae-homepage/static/js/3.f7326e62.chunk.js.map",
     "index.html": "/takeshihatae-homepage/index.html",
-    "static/css/main.f5399d0c.chunk.css.map": "/takeshihatae-homepage/static/css/main.f5399d0c.chunk.css.map",
+    "static/css/main.829d0651.chunk.css.map": "/takeshihatae-homepage/static/css/main.829d0651.chunk.css.map",
     "static/js/2.507cb561.chunk.js.LICENSE.txt": "/takeshihatae-homepage/static/js/2.507cb561.chunk.js.LICENSE.txt",
     "static/media/gear__live1.fb497406.jpg": "/takeshihatae-homepage/static/media/gear__live1.fb497406.jpg",
     "static/media/gear__live2.72b1279b.jpg": "/takeshihatae-homepage/static/media/gear__live2.72b1279b.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ecdc3e9.js",
     "static/js/2.507cb561.chunk.js",
-    "static/css/main.f5399d0c.chunk.css",
-    "static/js/main.dcdc7687.chunk.js"
+    "static/css/main.829d0651.chunk.css",
+    "static/js/main.b80b6ffd.chunk.js"
   ]
 }
