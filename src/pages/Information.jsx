@@ -4,17 +4,12 @@ import loadingImg from "../assets/loading.gif";
 import { useState } from "react";
 
 export const InformationData = (props) => {
-  console.log(props);
   return (
     <>
       <div class="information__data">
         <a href={props.url}>
-          <p class="information__data--date">{props.date}</p>
-          <p class="information__data--place">{props.place}</p>
           <p class="information__data--title">{props.title}</p>
           <p class="information__data--detail">{props.detail}</p>
-          <p class="information__data--member">{props.member}</p>
-          <p class="information__data--charge">{props.charge}</p>
         </a>
       </div>
     </>
@@ -28,7 +23,8 @@ export const Information = () => {
     fetcher
   );
 
-  const [year, setYear] = useState("2021");
+  const currentTime = new Date();
+  const [year, setYear] = useState(String(currentTime.getFullYear()));
   if (error) return <div>failed to load</div>;
 
   const Loading = <img alt="" src={loadingImg} />;
@@ -61,12 +57,8 @@ export const Information = () => {
                 return (
                   <InformationData
                     url={datum.url}
-                    date={datum.date}
-                    place={datum.place}
                     title={datum.title}
                     detail={datum.detail}
-                    member={datum.member}
-                    charge={datum.charge}
                   />
                 );
               })}

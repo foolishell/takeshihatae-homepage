@@ -23,8 +23,9 @@
   background-color: #161616;
   border-radius: 5px;
   padding: 15px;
+  margin-top: 10px;
   transition: .3s;
-  box-shadow: 1px 1px 2px 2px gray;
+  box-shadow: 0.5px 0.5px 1px 1px gray;
   @media (min-width: 960px) {
     &:hover {
       background-color: gray;
@@ -37,10 +38,12 @@
   }
   &--title {
     margin-top: 0.3rem;
+    font-weight: bold;
     margin-bottom: 1rem;
   }
   &--detail, &--member, &--charge {
     font-size: 0.7rem;
     line-height: 1.2rem;
+    white-space: pre-wrap;
   }
 }
